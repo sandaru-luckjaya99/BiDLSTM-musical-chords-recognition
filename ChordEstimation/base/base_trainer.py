@@ -5,7 +5,7 @@ import logging
 import datetime
 import torch
 from utils.visualization import WriterTensorboardX
-
+#torch.backends.cudnn.benchmark = True
 
 class BaseTrainer:
     """
