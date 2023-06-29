@@ -1,10 +1,10 @@
 import torch
 
+import torch
+
 def midi_collate_fn(data):
     """Creates mini-batch tensors from the list of tuples (melody_x, melody_y, chord_y).
 
-    We should build custom collate_fn rather than using default collate_fn,
-    because merging caption (including padding) is not supported in default.
     Args:
         data: list of tuple (melody_x, melody_y, chord_y).
             - melody_x: torch tensor of shape (sequence_len,)
