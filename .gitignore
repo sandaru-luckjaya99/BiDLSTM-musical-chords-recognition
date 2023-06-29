@@ -4,6 +4,5 @@
 venv/
 *-checkpoint.ipynb
 ChordEstimation/saved
-ChordEstimation/config/
 ChordEstimation/weights/
 *.json
